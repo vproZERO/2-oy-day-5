@@ -1,0 +1,111 @@
+.for__content{
+    padding: 140px 165px 140px 165px ;
+    position: relative;
+    background-color: #004047;
+
+}
+.for__img1{
+    position: absolute;
+    left: 1200px;
+    bottom: 0;
+}
+.for__img2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.for__span{
+    color: #79C8C7;
+}
+.for__tittle{
+    max-width: 932px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;  
+    margin-bottom: 56px;
+}
+.for__list{
+    display: flex;
+}
+.for__item+.for__item{
+    margin-left: 30px;
+}
+.for__item{
+    position: relative;
+}
+.for__item-img{
+    margin: 0 146px;
+}
+.for__item-text{
+    max-width: 350px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;  
+    margin-bottom: 24px;
+}
+.for__item-tittle{
+    max-width: 350px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;  
+}
+.for__item-job{
+    position: absolute;
+    left: 100px;
+    max-width: 250px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.for__item-icon{
+    margin-left: 144px;
+    margin-top: 32px;
+}
+@media only screen and (max-width:1200px){
+    .for__content{
+        padding: 100px 97px;
+    }
+    .for__img1{
+        left: 573px;
+    }
+    .for__tittle{
+        max-width: 573px;
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 48px;
+        margin-left: 97px;
+    }
+    .for__list{
+        display: inline-block;
+    }
+    .for__item{
+        margin-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .for__item-img{
+        margin: 0 351px;
+    }
+    .for__item-text{
+        max-width: 573px;
+        margin-bottom: 16px;
+        margin-left: 37px;
+    }
+    .for__item-tittle{
+        margin: 0 209px;
+    }
+    .for__item-job{
+        margin: 0 209px;
+        margin-bottom: 16px;
+    }
+    .for__item-icon{
+        margin-left: 353px;
+        padding-top: 16px;
+    }
+}
