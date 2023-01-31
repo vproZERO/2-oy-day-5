@@ -27,7 +27,7 @@
     color: #012F34;     
     margin-left: 260px;
 }
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:768px){
     .get__content{
         padding:76px 98px;
     }
@@ -38,5 +38,24 @@
     }
     .get__link{
         margin-left: 84px;
+    }
+}
+@media only screen and (max-width:375px){
+    .get__content{
+        padding: 83px 24px ;
+        display: inline-block;
+    }
+    .get__img{
+        position: absolute;
+        right: 175px;
+    }
+    .get__tittle{
+        max-width: 327px;
+        margin: 0 24px 24px 24px;
+    }
+    .get__link{
+        max-width: 153px;
+        padding: 10px 32px;
+        margin-bottom: 83px;
     }
 }
