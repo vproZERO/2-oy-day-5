@@ -67,45 +67,45 @@
     margin-left: 144px;
     margin-top: 32px;
 }
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:768px){
     .for__content{
         padding: 100px 97px;
     }
     .for__img1{
-        left: 573px;
+        position: absolute;
+        left: 528px;
     }
     .for__tittle{
         max-width: 573px;
+        left: 97px;
         font-size: 32px;
         line-height: 32px;
         margin-bottom: 48px;
-        margin-left: 97px;
     }
     .for__list{
         display: inline-block;
     }
-    .for__item{
-        margin-bottom: 48px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .for__item-img{
-        margin: 0 351px;
+        margin: 0 250px;
     }
     .for__item-text{
         max-width: 573px;
         margin-bottom: 16px;
-        margin-left: 37px;
     }
     .for__item-tittle{
+        max-width: 350px;
         margin: 0 209px;
     }
     .for__item-job{
-        margin: 0 209px;
-        margin-bottom: 16px;
+        max-width: 300px;
+        left: 209px;
+        right: 209px;
     }
     .for__item-icon{
         margin-left: 353px;
-        padding-top: 16px;
+       top: 16px;
     }
+}
+@media only screen and (max-width:375px){
+    
 }

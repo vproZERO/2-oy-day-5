@@ -10,6 +10,7 @@
     width: 159px;
 }
 .head__list{
+    display: inline-block;
     display: flex;
     align-items: center;
 }
@@ -34,9 +35,13 @@
     color: #FFFFFF;   
     margin-left: 577px;
 }
+.head__link3{
+    display: none;
+    margin-left: 80px;
+}
 
 
- @media only screen and  (max-width:1200px) {
+ @media only screen and  (max-width:768px) {
     .head__content{
         background: #014E56;
         display: flex;
@@ -49,5 +54,24 @@
     }
     .head__link2{
         margin-left: 300px;
+    }
+}
+@media only screen and (max-width:375px){
+    .head__content{
+        padding: 48px 24px 80px 24px;
+    }
+    .head__list{
+        display: none;
+    }
+    .head__link2{
+        display: none;
+    }
+
+    .head__link3{
+        display: inline-block;
+    }
+    .head__img{
+        margin-left: 24px;
+        width: 107px;
     }
 }
