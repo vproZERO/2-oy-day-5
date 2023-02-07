@@ -1,13 +1,15 @@
-.work__content{
+#work{
     background: #012F34;
-    padding: 140px 165px;
-    display: flex;
-    position: relative;
 }
-.work__img{
-    position: absolute;
-    bottom:0;
-    left: 1300px;
+.work__content{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.work__box{
+    margin-left: 165px;
 }
 .work__tittle{
     max-width: 445px;
@@ -22,26 +24,22 @@
     border-top: 4px solid #F67E7E;
     margin-bottom: 54px;
 }
-.work__box2{
-    margin-left: 125px;
-    margin-top: 70px;
-}
 .work__item-box{
     display: flex;
+    align-items: center;
 }
 .work__item{
     margin-bottom: 32px;
 }
-.work__img2{
-    margin-right: 23px;
+.work__item-content{
+    margin-left: 23px;
 }
 .work__item-tittle{
-    max-width: 445px;
+    max-width: 206px;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
     color: #F67E7E;   
-    margin-bottom: 16px;
 }
 .work__item-text{
     max-width: 445px;
@@ -53,53 +51,52 @@
 }
 
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1110px){
     .work__content{
-        background: #012F34;
-        padding: 100px 97px;
         display: block;
-        position: relative;
     }
     .work__line{
         margin-bottom: 32px;
     }
-    .work__box2{
-        margin-left: 0;
-        margin-top: 64px;
-    }
-    .work__img{
-        position: absolute;
-        top:0;
-        left: 623px;
-    }
-}
-@media only screen and(max-width:375px){
-    .work__content{
-        background: #012F34;
-        padding: 64px 24px;
-    }
-    .work__img{
-        left: 235px;
-        width: 200px;
-        height: 244px;
-    }
     .work__tittle{
-        max-width: 170px;
+        max-width: 445px;
         font-size: 32px;
         line-height: 32px;
+        margin-bottom: 64px;
+    }
+    .work__list{
+        margin: 0 auto;
+    }
+    .work__item-box{
+        display: flex;
+        align-items: center;
+    }
+}
+@media only screen and(max-width:768px){
+    .work__tittle{
+        max-width: 209px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0 auto;
         margin-bottom: 56px;
     }
     .work__item-box{
-        display: inline-block;
+        display: block;
+        margin: 0 auto;
     }
     .work__img2{
-        margin: 0 102px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 16px;
     }
     .work__item-tittle{
         max-width: 327px;
+        margin: 0 auto;
         margin-bottom: 8px;
     }
     .work__item-text{
         max-width: 327px;
+        margin: 0 auto;
     }
 }
